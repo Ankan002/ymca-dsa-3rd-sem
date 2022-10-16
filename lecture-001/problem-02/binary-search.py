@@ -1,3 +1,11 @@
+"""
+    ? Problem Statement: Q2 of Lecture 01 Problems.
+
+    ! Time Complexity: O(log n)
+    ! Space Complexity: O(1)
+"""
+
+
 def binary_search(nums: list[int], key: int) -> int:
     lb = 0
     ub = len(nums) - 1
