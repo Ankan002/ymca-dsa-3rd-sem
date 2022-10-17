@@ -21,7 +21,7 @@ git clone https://github.com/Ankan002/ymca-dsa-3rd-sem.git
 cd ymca-dsa-3rd-sem
 ```
 
-- Finally you are good to run any file using the following command:
+- Finally, you are good to run any file using the following command:
 
 Windows
 
