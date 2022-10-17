@@ -12,7 +12,7 @@ This repository contains all the practicals done during my 3rd semester in DSA c
 - Now you need to clone this repo using the following command:
 
 ```bash
-https://github.com/Ankan002/ymca-dsa-3rd-sem.git
+git clone https://github.com/Ankan002/ymca-dsa-3rd-sem.git
 ```
 
 - Now you can go inside the folder using the following command:
