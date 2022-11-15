@@ -1,3 +1,10 @@
+"""
+    ? Problem Statement: Q4 of Lecture 01 Problems.
+
+    ! Time Complexity: O(log n)
+    ! Space Complexity: O(1)
+"""
+
 def find_peak(nums: list[int]) -> int:
     if len(nums) <= 0: return -1
     if len(nums) == 1: return nums[1]
