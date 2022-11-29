@@ -1,12 +1,12 @@
 def check_prec(c: str) -> int:
     if (c == '^'):
-        return 3;
+        return 3
     elif c == '/' or c == '*':
-        return 2;
+        return 2
     elif c == '+' or c == '-':
-        return 1;
+        return 1
     else:
-        return -1;
+        return -1
 
 def infix_to_postfix(exp:str) -> str:
     operators = ["/", "*", "^", "+", "-"]
