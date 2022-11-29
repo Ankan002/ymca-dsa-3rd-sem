@@ -1,3 +1,16 @@
+"""
+    ? Problem Statement: Q1 of Lecture 02
+    
+    ! Time Complexity:
+        ! - push: O(1)
+        ! - pop: O(1)
+        ! - top: O(1)
+        ! - is empty: O(1)
+        ! - print: O(n)
+        
+    ! Space Complexity: O(n)
+"""
+
 class Stack:
     def __init__(self) -> None:
         self.arr: list[int] = []
