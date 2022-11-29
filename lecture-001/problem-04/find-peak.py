@@ -22,7 +22,7 @@ def find_peak(nums: list[int]) -> int:
         elif nums[mid - 1] > nums[mid]: right = mid - 1
         elif nums[mid + 1] > nums[mid]: left = mid + 1
         
-    return -1;
+    return -1
 
 
 nums = [10,4,3,2,1,-3]
