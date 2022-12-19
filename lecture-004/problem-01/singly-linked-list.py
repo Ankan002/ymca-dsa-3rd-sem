@@ -80,7 +80,6 @@ class LinkedList:
         temp = self.head
         self.head = self.head.next
         temp.next = None
-        temp = None
         
     def deleteEnd(self) -> None:
         if self.head == None: return
@@ -116,7 +115,6 @@ class LinkedList:
         
         prev.next = temp.next
         temp.next = None
-        temp = None
         
         
     def printList(self):
