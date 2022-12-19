@@ -134,9 +134,9 @@ ll.addEnd(10)
 ll.addAtPos(11, 1)
 ll.addAtPos(12, 6)
 ll.addAtPos(17, 2)
-# ll.deleteFront()
-# ll.deleteEnd()
-# ll.deletePos(2)
+ll.deleteFront()
+ll.deleteEnd()
+ll.deletePos(2)
 
 ll.printList()
         
