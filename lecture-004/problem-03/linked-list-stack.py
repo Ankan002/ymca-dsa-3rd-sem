@@ -1,3 +1,14 @@
+"""
+    ? Problem Statement: Q3 of Lecture 4
+    
+    ! Time Complexity:
+        ! - Push: O(1)
+        ! - Pop: O(1)
+        ! - IsEmpty: O(1)
+        ! - Top: O(1)
+        ! - Display: O(n)
+"""
+
 class Node:
     def __init__(self, val: int) -> None:
         self.val = val
