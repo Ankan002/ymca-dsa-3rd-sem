@@ -32,8 +32,9 @@ class Stack:
         if self.top == None: raise Exception("Stack Underflow!!!")
         
         if self.top.next == None:
+            returning_num = self.top.val
             self.top = None
-            return
+            return returning_num
         
         temp = self.top
         returning_num = temp.val
