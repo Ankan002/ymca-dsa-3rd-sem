@@ -53,17 +53,18 @@ class LinkedList:
         temp.next = new_node
         
     def addAtPos(self, val: int, pos: int) -> None:
-        if pos == 0:
+        if pos == 1:
             self.addFront(val)
             return
             
         new_node = Node(val)
             
-        current_pos = 0
+        current_pos = 1
         temp = self.head
         
-        while current_pos <= pos and temp.next != None:
+        while current_pos < pos - 1 and temp.next != None:
             temp = temp.next
+            current_pos += 1
             
         next = temp.next
         new_node.next = next
@@ -130,9 +131,12 @@ ll.addFront(2)
 ll.addFront(3)  
 ll.addFront(4)
 ll.addEnd(10)
-ll.deleteFront()
-ll.deleteEnd()
-ll.deletePos(2)
+ll.addAtPos(11, 1)
+ll.addAtPos(12, 6)
+ll.addAtPos(17, 2)
+# ll.deleteFront()
+# ll.deleteEnd()
+# ll.deletePos(2)
 
 ll.printList()
         
