@@ -1,3 +1,14 @@
+"""
+    ? Problem Statement: Q3(B) of lecture 3.
+    
+    ! Time Compilexity:
+        !- enqueue: O(1)
+        !- dequeue: O(n)
+        !- isEmpty: O(1)
+        !- top: O(n)
+        !- display: O(n)
+"""
+
 class UnorderedPriorityQueue:
     def __init__(self) -> None:
         self.queue: list[int] = []
