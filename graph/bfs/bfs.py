@@ -1,3 +1,10 @@
+"""
+    ? Problem Statement: BFT Graph
+    
+    ! Time Complexity: O(v + e)
+    ! Space Complexity: O(v)
+"""
+
 def bfs(edges: list[list[int]], graphType: str, startNode: int or None = None) -> None:
     """
         graphType refers to undirected or directed type passed as string. It is also a mandatory parameter.
