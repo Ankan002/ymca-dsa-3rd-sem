@@ -1,3 +1,10 @@
+"""
+    ? Problem Statement: Selection Sort.
+    
+    ! Time Complexity: O(n^2)
+    ! Space Complexity: O(1)
+"""
+
 def selectionSort(arr: list[int]) -> None:
     for i in range(len(arr) - 1):
         smallest_index = i
