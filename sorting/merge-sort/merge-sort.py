@@ -2,7 +2,7 @@
     ? Problem Statement: Merge Sort.
     
     ! Time Complexity: O(n log n)
-    ! Space Complexity: O(n^2)
+    ! Space Complexity: O(n)
 """
 
 def merge(arr: list[int], left: int, mid: int, right: int) -> None:
