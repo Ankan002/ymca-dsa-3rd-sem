@@ -1,17 +1,19 @@
 """
-    ? Problem Statement: Search Singly LinkedList
+    ? Problem Statement: Search Doubly LinkedList
     
     ! Time Complexity: O(n)
 """
+
 class Node:
     def __init__(self, val: int) -> None:
         self.val = val
         self.next: Node or None = None
+        self.prev: Node or None = None
         
-class LinkedList:
+class DoublyLinkedList:
     def __init__(self) -> None:
-        self.head = None
-            
+        self.head: Node or None = None
+        
     def addFront(self, val: int) -> None:
         new_node = Node(val)
         
@@ -20,6 +22,7 @@ class LinkedList:
             return
         
         new_node.next = self.head
+        self.head = new_node
         self.head = new_node
         
     def searchList(self, val: int) -> bool:
@@ -31,7 +34,7 @@ class LinkedList:
             
         return False
     
-ll = LinkedList()
+ll = DoublyLinkedList()
 
 ll.addFront(2)
 ll.addFront(12)
@@ -43,4 +46,3 @@ ll.addFront(29)
 
 print(ll.searchList(27))
 print(ll.searchList(21))
-        
